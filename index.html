@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Message for Peace ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stars"></div>
+        
+        <div class="content">
+            <div class="heart-animation">❤️</div>
+            
+            <h1 class="title">A Message for You, Peace</h1>
+            
+            <!-- Slideshow Section -->
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="images/photo1.jpg" alt="Our Memory 1">
+                </div>
+                <div class="slide fade">
+                    <img src="images/photo2.jpg" alt="Our Memory 2">
+                </div>
+                <div class="slide fade">
+                    <img src="images/photo3.jpg" alt="Our Memory 3">
+                </div>
+                <div class="slide fade">
+                    <img src="images/photo4.jpg" alt="Our Memory 4">
+                </div>
+                <div class="slide fade">
+                    <img src="images/photo5.jpg" alt="Our Memory 5">
+                </div>
+                
+                <!-- Navigation -->
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                
+                <!-- Dots -->
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+            
+            <!-- Love Message Section -->
+            <div class="message-box">
+                <p class="opening">My Dearest Peace,</p>
+                
+                <p class="love-message">
+                    You are my greatest blessing and my favorite adventure. 
+                    Every moment with you fills my heart with joy and makes me 
+                    believe in the beauty of love.
+                </p>
+                
+                <p class="love-message">
+                    Your smile brightens my darkest days, your presence calms my worries, 
+                    and your love makes me the luckiest person alive. Thank you for 
+                    being the amazing person you are.
+                </p>
+                
+                <p class="love-message">
+                    On this day of love, I want you to know that my feelings for you 
+                    grow stronger with each passing moment. You complete me in ways 
+                    I never thought possible, and I am forever grateful for you.
+                </p>
+                
+                <p class="closing">Forever yours with all my love,<br>Ola ❤️</p>
+            </div>
+            
+            <!-- Photo Gallery Grid -->
+            <div class="gallery-section">
+                <h2 class="gallery-title">Our Beautiful Memories 💕</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/photo1.jpg" alt="Memory 1">
+                        <div class="gallery-overlay">💕</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/photo2.jpg" alt="Memory 2">
+                        <div class="gallery-overlay">💕</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/photo3.jpg" alt="Memory 3">
+                        <div class="gallery-overlay">💕</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/photo4.jpg" alt="Memory 4">
+                        <div class="gallery-overlay">💕</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/photo5.jpg" alt="Memory 5">
+                        <div class="gallery-overlay">💕</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/photo6.jpg" alt="Memory 6">
+                        <div class="gallery-overlay">💕</div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="reveal-btn" onclick="revealSpecialMessage()">
+                Click for a Special Message
+            </button>
+            
+            <div class="special-message" id="specialMessage">
+                <p>I love you more than words could ever express, Peace! 💕</p>
+                <p>Happy Valentine's Day, my love! 🌹</p>
+            </div>
+        </div>
+        
+        <div class="floating-hearts"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
